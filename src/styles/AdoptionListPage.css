@@ -1,0 +1,40 @@
+.lista-adocao-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.animais-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.animal-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.animal-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+}
+
+.animal-info {
+    padding: 15px;
+}
+
+.animal-info h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.animal-info p {
+    margin: 5px 0;
+    color: #555;
+}

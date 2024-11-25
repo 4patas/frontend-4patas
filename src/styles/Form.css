@@ -1,0 +1,49 @@
+
+
+.contact-form {
+  padding: 10rem 10%;
+  background: #262921 !important;
+  font-style: italic;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(8px + 2vmin);
+  justify-content: center;
+  color: #fff;
+}
+
+
+@media (min-width: 1081px) {
+.contact-form {
+  padding:10rem 10%;
+  background: #212529;
+  font-style: italic;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(8px + 2vmin);
+  justify-content: center;
+}
+}
+
+@media (min-width: 1081px) {
+  .form-area{
+    align-items: center;
+    padding-bottom: 20%;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 16px;
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+}
+
+.loading {
+  visibility: hidden;
+  width: 50px;
+  height:50px;
+}
+
+
+
+
+

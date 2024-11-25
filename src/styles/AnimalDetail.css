@@ -1,0 +1,85 @@
+.animal-detail-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.4s ease;
+}
+
+.animal-name {
+    font-size: 2.4rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.animal-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.animal-image-details {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.animal-info {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.toggle-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
+
+.usuario-details {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #444;
+}
+
+.loading {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.error {
+    color: red;
+    font-size: 1.2rem;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

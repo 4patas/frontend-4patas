@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #028F76; /* Cor de fundo */
+  color: #FFFFFF; /* Cor do texto */
+  padding: 10px 20px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #FFFFFF; /* Cor dos links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #FFFFFF; /* Cor do texto */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  text-decoration: underline; /* Efeito de hover */
+}
+
+.nav-links a:hover {
+  text-decoration: underline; /* Efeito de hover nos links */
+}
+

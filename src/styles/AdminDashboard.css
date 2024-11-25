@@ -1,0 +1,33 @@
+.admin-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-section {
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dashboard-table th, .dashboard-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .dashboard-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  

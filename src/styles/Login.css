@@ -1,0 +1,124 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+   */
+  /* Container principal */
+  .login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Título */
+  .login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Formulário */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Labels */
+  label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3b82f6;
+  }
+  
+  /* Botão */
+  .login-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Mensagem de erro */
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  /* Links */
+  .login-container a {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #3b82f6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .login-container a:hover {
+    color: #2563eb;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 600px) {
+    .login-container {
+      padding: 20px;
+    }
+  
+    .login-form {
+      margin-top: 10px;
+    }
+  
+    button {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  

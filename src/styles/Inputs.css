@@ -1,0 +1,36 @@
+input {
+   background-color: #ffffff;
+  border-color: #797979;
+  color: rgb(0, 0, 0);
+  width: 80%;
+  height: 20px;
+  font-size: 15px;
+  border-width: 1px;
+  border-style:solid;
+  padding: 1.25rem 2.5rem;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  border-radius: 5px;
+  text-decoration: none;
+  font-style: normal;
+  margin-bottom: 20px;
+
+}
+
+textarea {
+  background-color: #ffffff;
+  border-color: #797979;
+  color: rgb(0, 0, 0);
+   width: 80%;
+  height: 184px;
+  font-size: 15px;
+  border-width: 1px;
+  border-style:solid;
+  padding: 1.25rem 2.5rem;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  border-radius: 5px;
+  text-decoration: none;
+  font-style: normal;
+}
+
